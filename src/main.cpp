@@ -249,7 +249,7 @@ int main(void) {
   Scene scene;
 
   Material material;
-  material.roughness = 0.1f;
+  material.roughness = 0.01f;
   {
     Sphere sphere;
     sphere.material = material;
